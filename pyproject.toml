@@ -1,0 +1,19 @@
+[build-system]
+requires = [
+  "setuptools>=80.9.0",
+  "wheel>=0.45.1"
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+# CHANGE THIS AND THE DIR AFTER LIB TO YOUR DESIRED PACKAGE NAME
+name = "package"
+version = "1.0.0"
+# LIST DEPENDENCIES HERE IF YOU HAVE ANY LIKE WITH PYDANTIC HERE
+# dependencies = ["pydantic>=2.0"]
+
+[tool.setuptools.packages.find]
+where = ["lib"]
+
+[project.scripts]
+CTC3 = "CTClassifier3.cli:app"
