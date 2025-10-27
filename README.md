@@ -9,7 +9,7 @@ Ensure The Following Packages Are Installed To Your Nix Profile
 nix profile add nixpkgs#direnv nixpkgs#nix-direnv
 ```
 
-Nix Profile Is Added To Your Path
+Ensure Nix Profile Is Added To Your Path
 ```bash
 # ~/.bashrc
 export PATH="$HOME/.nix-profile/bin:$PATH"
