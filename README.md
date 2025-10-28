@@ -6,7 +6,7 @@ A Nix and NixDirenv Configured Environment To Easily Package Python Modules
 
 Ensure The Following Packages Are Installed To Your Nix Profile
 ```bash
-nix profile add nixpkgs#direnv nixpkgs#nix-direnv
+nix profile install nixpkgs#direnv nixpkgs#nix-direnv
 ```
 
 Ensure Nix Profile Is Added To Your Path
